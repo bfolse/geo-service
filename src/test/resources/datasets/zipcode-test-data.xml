@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<ZIP_CODE postal_code="80543" place_name="Milliken" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.3107" longitude="-104.8761" accuracy="1"/>	
+	<ZIP_CODE postal_code="80546" place_name="Severance" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.525" longitude="-104.8505" accuracy="1"/>
+	<ZIP_CODE postal_code="80550" place_name="Windsor" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.4837" longitude="-104.8994" accuracy="1"/>
+	<ZIP_CODE postal_code="80551" place_name="Windsor" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.4641" longitude="-104.8851" accuracy="1"/>
+	<ZIP_CODE postal_code="80610" place_name="Ault" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.5938" longitude="-104.7356" accuracy="1"/>
+	<ZIP_CODE postal_code="80611" place_name="Briggsdale" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.6392" longitude="-104.2871" accuracy="1"/>
+	<ZIP_CODE postal_code="80612" place_name="Carr" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.8666" longitude="-104.8859" accuracy="1"/>
+	<ZIP_CODE postal_code="80615" place_name="Eaton" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.5273" longitude="-104.7146" accuracy="1"/>
+	<ZIP_CODE postal_code="80620" place_name="Evans" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.3803" longitude="-104.6971" accuracy="1"/>
+	<ZIP_CODE postal_code="80621" place_name="Fort Lupton" state_name="Colorado" state_code="CO" county_name="Weld" county_code="123" city_name="a" city_code="1" latitude="40.108" longitude="-104.8013" accuracy="1"/>
+</dataset>
+

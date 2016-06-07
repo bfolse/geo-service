@@ -38,7 +38,7 @@ public class ZipCodeRepositoryTest {
 	private ZipCodeRepository repository;
 	
 	private Date now = new Date();
-	private ZipCode zipCodeOne = new ZipCode("30306", "Atlanta", "Georgia", "GA", "Dekalb", "089", "", "", (long)33.786, (long)-84.3514, 1);
+	private ZipCode zipCodeOne = new ZipCode("30306", "Atlanta", "Georgia", "GA", "Dekalb", "089", "", "", (double)33.786, (double)-84.3514, 1);
 	
 	@Test
 	public void findAllTest() {

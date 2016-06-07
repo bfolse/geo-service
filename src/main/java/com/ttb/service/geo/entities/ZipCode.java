@@ -10,7 +10,8 @@ import javax.persistence.Column;
 public class ZipCode {
 
 	@Id
-    @GeneratedValue(strategy=GenerationType.AUTO)private String id;
+    @GeneratedValue(strategy=GenerationType.AUTO)
+	private Long id;
 	private String postalCode;
 	private String placeName;
 	private String stateName;
@@ -21,8 +22,8 @@ public class ZipCode {
 	private String cityName;
 	@Column(nullable=true)
 	private String cityCode;
-	private long latitude;
-	private long longitude;
+	private double latitude;
+	private double longitude;
 	private int accuracy;
 
 	protected ZipCode() {}
@@ -41,7 +42,7 @@ public class ZipCode {
 	 * @param accuracy
 	 */
 	public ZipCode(String postalCode, String placeName, String stateName, String stateCode, String countyName,
-			String countyCode, String cityName, String cityCode, long latitude, long longitude, int accuracy) {
+			String countyCode, String cityName, String cityCode, double latitude, double longitude, int accuracy) {
 		super();
 		this.postalCode = postalCode;
 		this.placeName = placeName;
@@ -171,28 +172,28 @@ public class ZipCode {
 	/**
 	 * @return the latitude
 	 */
-	public long getLatitude() {
+	public double getLatitude() {
 		return latitude;
 	}
 
 	/**
 	 * @param latitude the latitude to set
 	 */
-	public void setLatitude(long latitude) {
+	public void setLatitude(double latitude) {
 		this.latitude = latitude;
 	}
 
 	/**
 	 * @return the longitude
 	 */
-	public long getLongitude() {
+	public double getLongitude() {
 		return longitude;
 	}
 
 	/**
 	 * @param longitude the longitude to set
 	 */
-	public void setLongitude(long longitude) {
+	public void setLongitude(double longitude) {
 		this.longitude = longitude;
 	}
 
@@ -213,7 +214,7 @@ public class ZipCode {
 	/**
 	 * @return the id
 	 */
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 

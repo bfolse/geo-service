@@ -30,6 +30,7 @@ import com.github.springtestdbunit.annotation.DatabaseTearDown;
 @DatabaseSetup(ZipCodeRepositoryTest.DATASET)
 @DatabaseTearDown(type = DatabaseOperation.DELETE_ALL, value = { ZipCodeRepositoryTest.DATASET })
 @DirtiesContext
+// TODO (Spring Boot 1.4)  @DataJpaTest
 public class ZipCodeRepositoryTest {
 
 	protected static final String DATASET = "classpath:datasets/zipcode-test-data.xml";
